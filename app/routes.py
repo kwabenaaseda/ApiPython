@@ -5,7 +5,7 @@ api = Blueprint('api', __name__)
 
 @api.route('/')
 def home():
-    return jsonify({"message": "Hello World",
+    return jsonify({"message": "Sorry for the delay but this is much better than a simple app do all the edits in the route.py file",
                     "status": "success"})
 
 @api.route('/<path:subpath>')
