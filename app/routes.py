@@ -5,7 +5,8 @@ api = Blueprint('api', __name__)
 
 @api.route('/')
 def home():
-    return jsonify({"message": "My Name is Gibson", "status": "success"})
+    return jsonify({"message": "Hello World",
+                    "status": "success"})
 
 @api.route('/<path:subpath>')
 def dynamic_route(subpath):
